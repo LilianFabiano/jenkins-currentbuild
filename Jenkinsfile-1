@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Hello Unyleya') {
+    stage('Hello') {
       steps {
-        sh 'echo Hello World'
+        sh 'echo Hello Unyleya'
         echo "Build number is ${currentBuild.number}"
       }
     }
